@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - "assets/"
+  output-dir: docs
 
 website:
   title: "研究室の机"
@@ -9,7 +10,7 @@ website:
     left:
       - href: page/blog.qmd
         text: メモあつめ
-  site-url: "https://statsuno25.github.io/lab_desk"
+  site-url: "https://stats1230.github.io/lab-desk"
 
 format:
   html:
