@@ -8,7 +8,7 @@ navbar:
 
 <div 
   class="column-screen hero-image-container" 
-  style="background-image: url('/assets/image/izu.JPG');">
+  style="background-image: url(assets/image/izu.JPG);">
   <figcaption class="hero-caption">
     見たな…………？
   </figcaption>
