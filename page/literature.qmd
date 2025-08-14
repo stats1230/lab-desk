@@ -1,0 +1,26 @@
+---
+title: "先行研究の探し方、まとめ方"
+permalink: /literature.html
+toc: false
+---
+
+先日、大学院の仲間と共同で主催している自主ゼミで研究報告会がありました。それに合わせて、「論文の書き始め方」というワークショップを開催しました。そこで共同主催者の同期が「先行研究の探し方、まとめ方」という題目で報告をしてくれたのですが、その時のスライド資料をここで掲載します。中島さん、素敵な報告をしていただき、また資料の公開をご快諾いただきありがとうございました！
+
+<div class="author-card">
+  <div class="text-content" markdown="1">
+
+### 中島 崇裕 / Takahiro Nakajima
+一橋大学大学院法学研究科修士課程。専攻は国際関係論、研究関心は国際規範、民主主義・人権、LGBTQ＋の権利。2022年から一橋大学グローバル・ガバナンス研究センター（GGR）でリサーチアシスタントを務める。また、2024年からは、LGBTQ＋の学生とアライが利用できる一橋大学のセーファースペースの運営に携わる。(文章・写真ともに[一橋大学 GGR のウェブサイト](https://ggr.hias.hit-u.ac.jp/)による。)
+  </div>
+  <div class="image-content" markdown="1">
+![](/assets/image/nakajima.jpg)
+  </div>
+
+</div>
+
+
+<div class="slide-deck">
+  <div class="pdf-embed">
+  <iframe src="/assets/files/literature.pdf"></iframe>
+  </div>
+</div>

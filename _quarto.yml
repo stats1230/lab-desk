@@ -1,0 +1,20 @@
+project:
+  type: website
+  resources:
+    - "assets/"
+
+website:
+  title: "研究室の机"
+  navbar:
+    left:
+      - href: page/blog.qmd
+        text: メモあつめ
+  site-url: "https://statsuno25.github.io/lab_desk"
+
+format:
+  html:
+    theme:
+      light: [sandstone, style.scss]
+    toc: true
+
+lang: ja

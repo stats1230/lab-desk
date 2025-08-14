@@ -1,0 +1,43 @@
+---
+title: "研究室の机"
+toc: false
+navbar:
+  background: primary
+---
+
+
+<div 
+  class="column-screen hero-image-container" 
+  style="background-image: url('/assets/image/izu.JPG');">
+  <figcaption class="hero-caption">
+    見たな…………？
+  </figcaption>
+</div>
+
+
+# このページはなに？
+このページでは、研究室の机の上に散乱しているメモやノートをまとめています。主に将来の自分のための備忘録として執筆していますが、同じ研究室 (または同じ大学) の後輩の方にも役立つ情報をまとめられればいいなと思いっています。基本的には著者のブログです。
+
+## 研究の執筆について
+- [研究計画書の書き方](/page/research-proposal.qmd)
+- [先行研究の探し方、まとめ方](/page/literature.qmd)
+- [卒論・修論の体裁 Tips](/page/tips.qmd)
+- [APAスタイルのチートシート](/page/apa-style.qmd)
+
+
+::: {.callout-warning title="工事中につき、ご迷惑おかけします"}
+以下、まだ準備中です
+:::
+## 執筆・研究環境構築 (PC)関連
+- 個人的な執筆環境
+- 個人的な分析環境
+
+
+## 計量論文を読めるようになる！シリーズ
+- [まえがき](/page/q0_preface.qmd)
+
+### Part 1 回帰分析 (計量経済学)
+- 線形重回帰モデル
+
+## 計量分析は習うより慣れろ！シリーズ
+

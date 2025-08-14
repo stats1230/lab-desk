@@ -1,0 +1,411 @@
+---
+title: "APA スタイルでの引用方法"
+permalink: /apa-style
+---
+
+この記事では、政治学分野で最もよく用いられる引用スタイルの1つである"[APA Style](https://apastyle.apa.org/)" の第7版の方式での引用方法をまとめます。この記事では英語文献と日本語文献の両方の記法を掲載しています。
+
+ただし、日本語文献については **APA スタイルを日本語に適用した場合、このように表記するのがよいだろう**というものであって、規定があるわけではありません。指示がない場合は文献を通して統一されたスタイルになっていればよいはずです。国際政治系の資料であれば、[国際政治学会の投稿規定](https://jair.or.jp/membership/application/rules_for_papers.html)に従うのもよいかもしれません。
+
+
+<br>
+<br>
+
+## 英語文献
+### 雑誌論文 (Journal article)
+
+::: {.card .apa-citation-card}
+Author, F.M. (Year). Title of the article. _Title of the Journal,
+volume_(issue), #-#. DOI
+:::
+
+- 著者名
+  - ラストネームを先に書き、カンマ（,）を打ちます。
+  - ファーストネームとミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。
+  - 複数人いる場合はカンマ（,）でつなぎ、最後の著者の前にアンパサンド（&）を置きます。
+- 発行年
+    - 論文の発行年を丸括弧 () で囲みます。ピリオド(.)を忘れずに。
+- 論文のタイトル
+  - 主題と副題をコロン（:）でつなぎます。
+  - 文の最初の文字と、コロンの後の最初の文字、固有名詞のみ大文字にします。
+- 雑誌のタイトル
+  - 雑誌名を斜体（*Italic*）にします。
+  - 主要な単語の頭文字を大文字にします。
+- 巻号
+  - 巻数（Volume）を斜体にし、直後に号数（Issue）を丸括弧 () で囲んで表記します。
+- 掲載ページ
+  - 掲載ページの範囲をenダッシュ（–）でつなぎます。
+- DOI (Digital Object Identifier)
+  - 論文にDOIがある場合は、https://doi.org/ から始まる完全なリンクを記載します。
+  - リンクが切れないように、末尾にピリオドは付けません。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+Axelrod, R., & Keohane, R. O. (1985). Achieving cooperation under anarchy: Strategies and institutions. *World Politics, 38*(1), 226–254. https://doi.org/10.2307/2010357  
+
+Chenoweth, E., Perkoski, E., & Kang, S. (2017). State repression and nonviolent resistance. *Journal of Conflict Resolution, 61*(9), 1950-1969. https://doi.org/10.1177/0022002717721390  
+
+Glaser, C. L. (1994). Realists as optimists: Cooperation as self-help. *International Security, 19*(3), 50–90. https://doi.org/10.2307/2539079
+:::
+
+### 本 (Book)
+::: {.card .apa-citation-card}
+Author, F. M. (Year). *Title of the book: Subtitle of the book* (xth ed.). Publisher. DOI or URL
+:::
+
+* **著者名**
+  * ラストネームを先に書き、カンマ（,）を打ちます。
+  * ファーストネームとミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。
+  * 複数人いる場合はカンマ（,）でつなぎ、最後の著者の前にアンパサンド（&）を置きます。
+* **著作年**
+  * 本に記載されている著作年（copyright year）を丸括弧 () で囲みます。
+* **本のタイトル**
+  * 本のタイトルを斜体（*Italic*）にします。
+  * 主題と副題をコロン（:）でつなぎ、主題と副題の冒頭の文字及び固有名詞のみ大文字にします。
+* **版情報**
+  * 本のタイトルのあと（ピリオドの前）の括弧内に、斜体にせずに表記します。
+  * 版を「序数詞+『ed.』」で書きます。（例: 2nd ed., 4th ed.）
+* **出版社**
+  * 出版社の名前を書きます。出版地は不要です。
+  * 複数の出版社から出版されている場合、「;」を用いてつなぎます。
+* **DOIまたはURL**
+  * DOIがあればDOIをリンク形式で表記します。末尾にはピリオド (.) を付けません。
+  * DOIがなくURLがある場合（e-bookなど）はURLを表記します。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+King, G., Keohane, R. O., & Verba, S. (2021). *Designing social inquiry: Scientific inference in qualitative research* (2nd ed.). Princeton University Press.
+
+Kalyvas, S. N. (2006). *The logic of violence in civil war*. Cambridge University Press.
+
+Stock, J. H., & Watson, M. W. (2020). *Introduction to econometrics* (4th ed.). Pearson Education.
+:::
+
+### 編集本の特定の章 (Book chapter)
+::: {.card .apa-citation-card}
+Author, F. M. (Year). Title of the chapter. In F. M. Editor (Ed.), Title of the book (pp. #-#). Publisher. DOI or URL
+:::
+
+- 論文情報
+  - 通常の論文と同様の要領で、章の情報を表記します。
+  - 本の情報の前に「In」と記載し、本の一部であることを示します。
+- 編者の名前
+  - 編集者の名前は、ファーストネーム→ミドルネーム→ラストネームの順番で表記します。
+  - ファーストネームとミドルネームはイニシャルを書き、省略を表すピリオド (.) を書きます。
+  - 複数人いる場合、著者の間を「,」で結び、最後の著者名の直前に「＆」を記載します。
+  - 編者であることを示すため、最後の編者名のあとに「(Ed.)」（単数形）または「(Eds.)」（複数形）を加えます。
+- 本の情報と出版社
+  - 本のタイトルを斜体で表記します。
+  - 主題と副題はコロン (:) でつなぎ、主題と副題の冒頭の文字及び固有名詞のみ大文字にします。
+  - 章に該当するページ範囲を「(pp. #-#)」の形式で表記します。
+- DOIまたはURL
+  - DOIがあればDOIをリンク形式で表記します。末尾にはピリオド (.) を付けません。
+  - DOIがなくURLがある場合（e-bookなど）はURLを表記します。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+Stein, A. A. (1982). Coordination and collaboration: Regimes in an anarchic world. In S. D. Krasner (Ed.), International regimes (pp. 115-141). Cornell University Press.
+
+Weinstock, R., Leong, G. B., & Silva, J. A. (2003). Defining forensic psychiatry: Roles and responsibilities. In R. Rosner (Ed.), Principles and practice of forensic psychiatry (2nd ed., pp. 7–13). CRC Press.
+:::
+
+### 翻訳書 (Translated book)
+
+
+### 翻訳書 (Translated Book)
+必ず参照したものを引用します。英語の本を日本語に翻訳したものなら日本語の翻訳書を、ドイツ語の本を英語に翻訳したものなら英語の翻訳書を引用し、読んでいない本を引用してはいけません。
+
+::: {.card .apa-citation-card}
+Original Author, F. M. (Year of Translation). *Title of the translated book* (F. M. Translator, Trans.; ed.). Publisher. (Original work published YEAR)
+:::
+
+
+- **原著の著者名**
+  - ラストネーム→ファーストネーム→ミドルネームの順番で表記します。
+  - ファーストネームとミドルネームはイニシャルを書き、省略を表すピリオド (.) を書きます。
+  - 複数人いる場合、著者の間を「,」で結び、最後の著者名の直前に「&」を記載します。
+- **翻訳された年**
+  - 参照した翻訳書の著作年を表記します。
+- **翻訳された本のタイトル**
+  - 参照した翻訳書のタイトルを斜体 (*Italic*) で表記します。
+  - 主題と副題はコロン (:) でつなぎ、主題と副題の冒頭の文字及び固有名詞のみ大文字にします。
+- **翻訳者情報、版情報**
+  - 翻訳者の名前を丸括弧内に、ファーストネーム→ミドルネーム→ラストネームの順番で表記し、"Trans."を続けます。
+  - ファーストネームとミドルネームはイニシャルを書き、省略を表すピリオド (.) を打ちます。
+  - 翻訳書の版情報があれば、翻訳者名のあとをセミコロン (;) で区切り、版を「序数詞+『ed.』」で書きます。（例: 2nd ed.）
+- **出版社**
+  - 翻訳書を出版した出版社の名前を書きます。出版地は記載しません。
+  - 複数の出版社から出版されている場合、「;」を用いてつなぎます。
+- **原著の著作年**
+  - 文献の末尾に、原著の著作年を「(Original work published YEAR)」の形式で表記します。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+Coelho, P. (1993). *The alchemist* (A. R. Clarke, Trans.). HarperOne. (Original work published 1988)
+
+Kafka, F. (2010). *The trial* (I. Parry, Trans.). Penguin Books Ltd. (Original work published 1924)
+
+Piaget, J., & Inhelder, B. (1969). *The psychology of the child* (H. Weaver, Trans.; 2nd ed.). Basic Books. (Original work published 1966)
+:::
+
+### 新聞記事・雑誌記事 (News article)
+::: {.card .apa-citation-card}
+Author, F. M. (Year, Month Day). Title of article. *Name of News Source*. URL
+:::
+
+- **著者名**
+    - 著者がいる場合は、ラストネーム→ファーストネーム→ミドルネームの順番で表記します。
+    - ファーストネームとミドルネームはイニシャルを書き、省略を表すピリオド (.) を書きます。
+    - 複数人いる場合、著者の間をカンマ (,) で結び、最後の著者名の直前に「&」を記載します。
+    - 著者がわからない場合、代わりに記事のタイトルから始めます。参考文献リストには、タイトルの頭文字をアルファベット順に従って並べます。
+- **発行日**
+    - 記事が発行された年月日を「(Year, Month Day)」の形式で表記します。
+- **記事のタイトル**
+    - 記事のタイトルを、斜体にせず表記します。
+    - 主題と副題はコロン (:) でつなぎ、主題と副題の冒頭の文字及び固有名詞のみ大文字にします。
+- **ニュースソースのタイトル**
+    - ニュースサイトや新聞のタイトルを斜体で表記します。
+- **URLまたはページ番号**
+    - オンラインで閲覧した記事の場合はURLを記載します。末尾にはピリオド (.) を付けません。
+    - 紙の新聞などを参照した場合は、巻号やページ番号を表記します。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+Boxerman, A., Ward, E., & Breeden, A. (2024, June 15). Israel rejects French effort to curb Israel-Hezbollah battles. *New York Times*, A10.
+
+Faucon, B. (2024, June 28). Iran election pits engagement with west against more confrontation: Voter turnout will also signal whether Iranians are getting fed up with their system of governance. *The Wall Street Journal*. [https://www.wsj.com/world/middle-east/iran-election-candidates-young-voters-1268dd43](https://www.wsj.com/world/middle-east/iran-election-candidates-young-voters-1268dd43)
+
+Get on board for train safety. (2012, June 17). *Toronto Star*, A14.
+:::
+
+### ニュースサイトの記事 (News Website Article)
+定期刊行物ではないニュースサイト（CNNやHuffPost, BBCなど）の記事を引用する場合。 
+
+::: {.card .apa-citation-card}
+Author, F. M. (Year, Month Day). *Title of article*. Name of Website. URL
+:::
+
+- **著者名**
+    - ラストネーム→ファーストネーム→ミドルネームの順番で表記します。
+    - ファーストネームとミドルネームはイニシャルを書き、省略を表すピリオド (.) を書きます。
+    - 複数人いる場合、著者の間を「,」で結び、最後の著者名の直前に「&」を記載します。
+    - 著者がわからない場合、代わりに記事のタイトルから始めます。参考文献リストには、タイトルの頭文字をアルファベット順に従って並べます。
+- **発行日**
+    - 記事が公開された年月日を「(Year, Month Day)」の形式で表記します。
+- **記事のタイトル**
+    - 記事のタイトルを斜体で表記します。
+    - 主題と副題はコロン (:) でつなぎ、主題と副題の冒頭の文字及び固有名詞のみ大文字にします。
+- **ウェブサイトのタイトル**
+    - ウェブサイトの名称を斜体にせず表記します。
+- **URL**
+    - 記事へのURLを表記します。末尾にはピリオド (.) を付けません。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+Cohn, J. (2024, June 28). *2 important moments lost in the panic over Joe Biden’s performance*. HuffPost. [https://www.huffpost.com/entry/biden-trump-factcheck-statementspolicy_n_667e069de4b0c2f65422da96](https://www.huffpost.com/entry/biden-trump-factcheck-statementspolicy_n_667e069de4b0c2f65422da96)
+
+Muia, W. (2024, June 28). *Kenyan court allows military deployment to quell protests*. BBC News. [https://www.bbc.com/news/articles/c897gnr9z4vo](https://www.bbc.com/news/articles/c897gnr9z4vo)
+
+Wedeman, B. (2024, June 27). *Why an Israel-Hezbollah war would be far more dangerous today than the last time around*. CNN. [https://edition.cnn.com/2024/06/27/middleeast/israel-lebanon-hezbollah-analysis-intl-latam-hnk/index.html](https://edition.cnn.com/2024/06/27/middleeast/israel-lebanon-hezbollah-analysis-intl-latam-hnk/index.html)
+:::
+
+
+### 公的機関のウェブサイト (Governmental or Organizational website)
+### 政府・組織のウェブサイト (Government or Organization Website)
+::: {.card .apa-citation-card}
+Name of Agency or Group. (Year, Month Day). *Title of page or work*. Name of Parent Organization. URL
+:::
+
+- **著者（部局名・組織名）**
+    - ページに責任を負う特定の部署や機関がある場合、その名称を著者として表記します。
+    - 組織全体が作成者である場合は、組織名を著者として表記します。
+    - 個人の著者が明記されている場合は、その著者名から始め、部局名・組織名は発行元（Publisher）の箇所に表記します。
+- **掲載日**
+    - ページが公開または最終更新された年月日を「(Year, Month Day)」の形式で表記します。
+    - 「最終レビュー日（last reviewed）」は、内容の改訂を意味しないため引用情報として使用しません。
+- **ページのタイトル**
+    - ページのタイトルを斜体で表記します。
+    - 主題と副題はコロン (:) でつなぎ、主題と副題の冒頭の文字及び固有名詞のみ大文字にします。
+- **親組織の名称**
+    - 著者が特定の部署や下部機関である場合、その親組織の名称を大きい順（包括的な順）に表記します。
+    - 組織全体が著者である場合は、この項目は省略します。
+- **URL**
+    - ページへのURLを表記します。末尾にはピリオド (.) を付けません。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+Bureau of Political-Military Affairs. (2024, June 7). *U.S. security cooperation with Ukraine*. U.S. Department of State. [https://www.state.gov/u-s-security-cooperation-with-ukraine/](https://www.state.gov/u-s-security-cooperation-with-ukraine/)
+
+U.S. Department of the Interior. (2024, June 28). *Biden-Harris administration takes steps to protect tribal subsistence, vital ecosystems in Alaska*. [https://www.doi.gov/pressreleases/biden-harris-administration-takes-steps-protect-tribal-subsistence-vital-ecosystems](https://www.doi.gov/pressreleases/biden-harris-administration-takes-steps-protect-tribal-subsistence-vital-ecosystems)
+
+World Health Organization. (2024, June 19). *Injuries and violence*. [https://www.who.int/news-room/fact-sheets/detail/injuries-and-violence](https://www.who.int/news-room/fact-sheets/detail/injuries-and-violence)
+:::
+
+
+
+## 日本語文献
+### 雑誌論文 (Journal article)
+::: {.card .apa-citation-card}
+著者名 (発行年)「論文のタイトル—副題—」『雑誌名』巻(号)、pp. #-#. DOI
+:::
+
+- 著者名
+  - 著者を姓・名の順で表記します。
+  - 著者が複数名いる場合は、著者間を「・」（なかぐろ）でつなぎます。
+- 発行年
+  - 論文が掲載されている雑誌の発行年を丸括弧 ( ) の中に表記します。
+- 論文のタイトル
+  - 論文のタイトルを 「 」（一重かぎ括弧）で囲みます。
+  - 副題（サブタイトル）がある場合は －（ダッシュ）でタイトルとつなぎます。
+- 雑誌のタイトル
+  - 掲載雑誌のタイトルを 『 』（二重かぎ括弧）で囲みます。
+- 巻号・ページ
+  - 掲載雑誌の巻数を表記し、号数を丸括弧 ( ) の中に入れます。
+  - 論文が掲載されているページの範囲を、巻号の後に読点 (、) を打ち、pp. に続けて数字で表記します。ページの範囲は – (enダッシュ)でつなぎます。
+- DOI
+  - 論文にDOI（Digital Object Identifier）が付与されている場合は、リンク形式で記載します。URLの表示が変わる可能性があるため、末尾に句点 . は付けません。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+秋山信将 (2023)「グローバル・ヘルスレジームにおける調査・検証権限の制度的考察－不拡散レジー
+ムとの比較において（ヘルスをめぐる国際政治）－」『国際政治』211、pp.58-73.
+
+市原麻衣子 (2021)「変容する『人権・民主主義外交』－民主主義国の国際連携と日本のあり方－」
+『外交』67、pp. 42-47.
+
+大林一広 (2013)「反乱軍の組織と内戦後の和平期間」『国際政治』174、pp. 139-152.
+https://doi.org/10.11375/kokusaiseiji.174_139
+
+山田敦 (2002) 「国際関係を学ぶ人へ」『一橋論叢』127(4)、pp. 414-429.
+https://doi.org/10.15057/10298
+:::
+
+### 本 (Book)
+::: {.card .apa-citation-card}
+著者名 (発行年)『本のタイトル (版)』出版社
+:::
+
+- 著者名
+  - 著者を姓→名の順で表記します。
+  - 著者が複数名いる場合は「・」(なかぐろ) でつなぎます。
+- 発行年
+  - 本に記載されている著作年を表記します。(基本的には参照した版の第一刷の年)
+- 本のタイトル
+  - 本のタイトルを『 』(二重かぎ括弧) で囲みます。
+- 版情報
+  - 本のタイトルのあとで『』の中に「第#版」という形式で表記します。
+- 出版社
+  - 出版社の名前を書きます。出版値は書きません。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+高坂正尭 (2017)「国際政治－恐怖と希望－（改版）」中央公論社
+
+佐渡島紗織・吉野亜矢子（2021）『これから研究を書くひとのためのガイドブック ―ライティングの
+挑戦 15 週間―（第 2 版）』ひつじ書房
+
+松林哲也 (2021)「政治学と因果推論－比較から見える政治と社会－」岩波書店
+:::
+
+
+### 本の特定の章 (Book chapter)
+::: {.card .apa-citation-card}
+著者名 (発行年)「章のタイトル」編者名編『本のタイトル』出版社、pp.#-#
+:::
+- 論文情報
+  - 通常の論文と同様の要領で、章の情報を表記します。
+- 編者の名前
+  - 編者の名前を表記します。
+  - 編者であることを示すため、「編」「編著」を名前の後に表記します。
+- 本の情報と出版社
+  - 本のタイトルを二重かぎ括弧でくくり、副題がある場合は「－」（ダッシュ）で囲みます
+  - 本のタイトルのあと（『』の中）の括弧内にを「第#版」という形式で表記します。
+  - 出版社の名前を書く。出版地は書きません。
+  - 章が該当するページ範囲を「pp. #-#」の形式で表記します。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+中山祐美・土井翔平 (2021)「国際難民制度のテキスト分析－UNHCRにおける北欧諸国の発言を事例
+に－」鈴木基史・飯田啓輔編『国際関係研究の方法－解説と実践－』東京大学出版会、
+pp.213-236.
+
+宮城大蔵（2017）「1960 年代における日本の援助とアジア国際秩序 ―戦後処理と冷戦の影―」渡辺
+昭一編著『冷戦変容期の国際開発援助とアジア』ミネルヴァ書房、pp.340–367
+:::
+
+
+### 翻訳書 (Translated book)
+::: {.card .apa-citation-card}
+著者名 (翻訳年)『翻訳書のタイトル』(翻訳者訳) 出版社 (原著は####)
+:::
+
+- 必ず参照したものを引用する。英語の本を日本語に翻訳したものなら日本語の翻訳書を引用し、ドイツ語の本を英語に翻訳したものなら英語の翻訳書を引用すること。読んでいない本を引用してはいけない。
+- 原著の著者名
+  - 著者を姓→名の順で表記します。
+  - カッコ内に英語表記もします。
+  - 著者が複数名いる場合は「・」（なかぐろ）でつなぎます。
+- 翻訳された年
+  - 参照した翻訳書の著作年を表記します。
+- 翻訳された本のタイトル
+  - 参照した翻訳書のタイトルを二重かぎ括弧でくくります。
+  - 副題がある場合は「－」（ダッシュ）で囲みます。
+- 翻訳者情報、版情報
+  - 翻訳者の名前を表記し、「訳」を続けます。
+  - 翻訳書の版情報があれば、タイトルの後（二重かぎ括弧の中）の括弧内に示します。
+- 出版社
+  - 翻訳書を出版した出版社の名前を書く。出版地は書きません。
+- 原著の著作年
+  - 原著の著作年を「原著は ####」の形式で表記します。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+チェノウェス、エリカ（Chenoweth, E.）(2022)『市民的抵抗―非暴力が社会を変える―』（小林綾子訳）白水社（原著は2021）
+
+ナイ、ジョセフ・S.（Nye, J. S.）（2002）『国際紛争―理論と歴史―』（田中明彦・村田晃嗣訳）有斐閣 (原著は 1993)
+:::
+
+### 新聞記事・雑誌記事 (News article)
+::: {.card .apa-citation-card}
+著者名 (日付)「記事タイトル」『新聞名・雑誌名』URL
+:::
+
+- Web ニュース（定期刊行物でないニュース記事、例えばHuffPostなど）を引用する際は、ウェブ
+サイトの引用方法に従って引用する。
+- 著者名
+  - 著者を姓→名の順で表記します。
+  - 著者が複数名いる場合は「・」（なかぐろ）でつなぎます。
+- 発行日
+  - 新聞記事や雑誌の記事が発行された日を「年月日」の形式で表記します。
+- 記事のタイトル
+  - 記事のタイトルを一重かぎ括弧でくくる。タイトルのかぎ括弧は二重にします。
+  - 副題がある場合は「－」（ダッシュ）で囲みます。
+- 新聞や雑誌のタイトル
+  - 新聞や記事のタイトルを二重かぎ括弧で囲みます。
+  - 紙の新聞の場合、巻号や紙面、ページ番号を表記します。
+- URL
+  - 電子版の記事を引用する場合はURLを記載する。末尾には「.」を付けない。
+  - 著者がわからない場合、代わりに記事のタイトルから始める。参考文献リストには、タイトルの
+  - 頭文字をアルファベット順に従って並べる。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+今泉奏 (2024年3月8日)「『人口の半分が人道危機』泥沼化するスーダン―国際社会の傍観と謀略―」『朝日新聞デジタル』https://www.asahi.com/articles/ASS38659RS2SUHBI00B.ht ml
+
+「シンギュラリティー・サバイバル―先進企業は既に転換 生成 AI ありきの経営―」（2023 年 11 月27 日）『日経 BP』pp.16–21
+
+田中郁也（1998 年 1 月 29 日）「影落とすドル依存体質―インドネシア民間債務交渉が本格化―」『朝日新聞』朝刊、東京本社版、12 版、p.12
+:::
+
+### ウェブサイト上の情報 (News Website Article)
+::: {.card .apa-citation-card}
+著者名 (日付)「記事タイトル」『ウェブサイト名
+:::
+
+- ウェブサイト上の記事を引用する場合。
+- 著者名
+  - 著者を姓→名の順で表記します。
+  - 著者が複数名いる場合は「・」（なかぐろ）でつなぎます。
+- 発行日
+  - 記事がリリースされた日を「年月日」の形式で表記します。
+- 記事のタイトル
+  - 記事のタイトルを一重かぎ括弧でくくる。タイトルのかぎ括弧は二重にします。
+  - 副題がある場合は「－」（ダッシュ）で囲みます。
+- ウェブサイトのタイトル
+  - ウェブサイトの名称を二重かぎ括弧内に表記します。
+- URL
+  - 記事へのURLを表記する。末尾には「.」を付けません。
+  - 著者がわからない場合、代わりに記事のタイトルから始める。参考文献リストには、タイトルの頭文字に従って並べます
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+外務省 (2023年5月12日)「南スーダン共和国」『外務省ホームページ』https://www.mofa.go.jp/mofaj/area/s_sudan/index.html
+
+東京都デジタルサービス局（2023 年 8 月 23 日）「『文章生成 AI 利活用ガイドライン』の策定について」『都庁総合ホームページ』https://www.metro.tokyo.lg.jp/tosei/hodohappyo/press/2023/08/23/14.htm
+:::

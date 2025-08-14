@@ -1,0 +1,139 @@
+/*-- scss:defaults --*/
+$primary: #03233aff;
+$body-color: #333;
+$body-bg: #f8f9fa;
+$link-color: $primary;
+$headings-color: #343a40;
+$navbar-bg: $primary;
+$navbar-fg: $body-bg;
+$footer-bg: rgb(7, 71, 117);
+
+
+/*-- scss:rules --*/
+
+/* --- フォント設定 --- */
+/* タイトル用: Noto Sans Japanese(和文) */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+/* 本文用: Noto Sans(欧文), BIZ UDPGothic(和文) */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap');
+
+/* コード用: Fira Code */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+body {
+  font-family: 'Noto Sans', 'BIZ UDPGothic', Arial, Helvetica, sans-serif;
+  line-height: 1.8rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, 'Noto Sans Japanese';
+}
+
+#title-block-header {
+  margin-bottom: 2em;
+}
+
+/* --- ヒーローイメージ --- */
+.hero-image-container {
+  position: relative;
+  margin-bottom: 2em;
+  padding: 4em 0;
+  clear: both;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 45%;
+  animation: intro 0.5s both;
+  animation-delay: 0.2s;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+}
+
+.hero-caption {
+  text-align: center;
+  font-size: 0.8rem;
+  color: dimgray;
+  margin-top: 0.5em;
+}
+
+
+/* --- 著者カード --- */
+.author-card {
+  display: flex;
+  align-items: center; /* 内容を垂直方向に中央揃え */
+  margin: 2em 0;
+  padding: 1.5em;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #fdfdfd;
+  overflow: break-word; 
+
+  .text-content {
+    flex: 2;
+    padding-right: 2em;
+    h3 { margin-top: 0; }
+    p { font-size:0.9rem; line-height: 1.8; } 
+  }
+  .image-content {
+    flex: 1;
+    img {
+      width: 100%;
+      max-width: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      object-fit: cover;
+    }
+  }
+}
+
+/* 引用カード */
+.apa-citation-card {
+  font-size: 1.3rem;
+  padding-top: 1rem;
+  padding-left: 5rem;
+  text-indent: -2rem;
+  font-family: 'Times New Roman',"Noto Serif JP", Times, serif;
+}
+.citation-card {
+  p {
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+    padding-left: 5rem;
+    text-indent: -2rem;
+    font-family: 'Times New Roman',"Noto Serif JP", Times, serif;
+  }
+}
+
+
+/* --- PDF 埋め込み --- */
+.slide-deck {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid #e0e0e0; 
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.pdf-embed iframe {
+  width: 100%;
+  height: 500px; /* プレビューの高さを指定 */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.download-link {
+  text-align: center;
+  margin-top: 1.5em;
+}
