@@ -11,6 +11,7 @@ website:
       - href: page/blog.qmd
         text: メモあつめ
   site-url: "https://stats1230.github.io/lab-desk"
+  image: assets/image/izu.JPG
   google-analytics: "G-8WFETJ1CSL"
 
 format:
