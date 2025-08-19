@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。">
 
-<title>メモあつめ – 研究室の机</title>
+<title>Marp のテーマを作ってみた – 研究室の机</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +24,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0df261d42766d6c1199e81e0b8f718a8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-0df261d42766d6c1199e81e0b8f718a8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "サーチ"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8WFETJ1CSL"></script>
 
 <script type="text/javascript">
@@ -147,7 +117,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">研究室の机</span>
     </a>
   </div>
@@ -158,7 +128,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../page/blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../page/blog.html"> 
 <span class="menu-text">メモあつめ</span></a>
   </li>  
 </ul>
@@ -173,21 +143,56 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">分類</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">すべて <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SVI=">IR <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVjaA==">Tech <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVzdA==">Test <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V3JpdGluZw==">Writing <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">目次</h2>
+   
+  <ul>
+  <li><a href="#rojina-テーマの使い方" id="toc-rojina-テーマの使い方" class="nav-link active" data-scroll-target="#rojina-テーマの使い方">Rojina テーマの使い方</a></li>
+  <li><a href="#marp" id="toc-marp" class="nav-link" data-scroll-target="#marp">Marp</a></li>
+  <li><a href="#rojina-テーマの導入方法" id="toc-rojina-テーマの導入方法" class="nav-link" data-scroll-target="#rojina-テーマの導入方法">Rojina テーマの導入方法</a></li>
+  <li><a href="#rojina-の使い方" id="toc-rojina-の使い方" class="nav-link" data-scroll-target="#rojina-の使い方">Rojina の使い方</a>
+  <ul class="collapse">
+  <li><a href="#カラーパレットを自由に変更可能" id="toc-カラーパレットを自由に変更可能" class="nav-link" data-scroll-target="#カラーパレットを自由に変更可能">カラーパレットを自由に変更可能！</a></li>
+  <li><a href="#タイトルページ" id="toc-タイトルページ" class="nav-link" data-scroll-target="#タイトルページ">タイトルページ</a></li>
+  <li><a href="#フッタを表示する" id="toc-フッタを表示する" class="nav-link" data-scroll-target="#フッタを表示する">フッタを表示する</a></li>
+  <li><a href="#ヘッダを表示する" id="toc-ヘッダを表示する" class="nav-link" data-scroll-target="#ヘッダを表示する">ヘッダを表示する</a></li>
+  <li><a href="#ページのタイトル" id="toc-ページのタイトル" class="nav-link" data-scroll-target="#ページのタイトル">ページのタイトル</a></li>
+  <li><a href="#表を挿入する" id="toc-表を挿入する" class="nav-link" data-scroll-target="#表を挿入する">表を挿入する</a></li>
+  <li><a href="#コードブロックを挿入する" id="toc-コードブロックを挿入する" class="nav-link" data-scroll-target="#コードブロックを挿入する">コードブロックを挿入する</a></li>
+  <li><a href="#見出し付きのブロックを挿入する" id="toc-見出し付きのブロックを挿入する" class="nav-link" data-scroll-target="#見出し付きのブロックを挿入する">見出し付きのブロックを挿入する</a></li>
+  <li><a href="#参考文献のページを作る" id="toc-参考文献のページを作る" class="nav-link" data-scroll-target="#参考文献のページを作る">参考文献のページを作る</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">メモあつめ</h1>
-</div>
+<h1 class="title">Marp のテーマを作ってみた</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Tech</div>
+    <div class="quarto-category">Writing</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">公開</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2025年8月16日</p>
+    </div>
+  </div>
   
     
   </div>
@@ -197,99 +202,238 @@ window.Quarto = {
 </header>
 
 
-<p>トップページで紹介していない記事を含む、すべての記事の一覧です。</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="並び替え" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">並び替え</option>
-      <option value="index" data-direction="asc">デフォルト</option>
-      <option value="listing-title" data-direction="asc">
-        題名
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        日付 - 日付（昇順）
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        日付 - 日付（降順）
-      </option>
-      <option value="listing-author" data-direction="asc">
-        作者
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="フィルター">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="VGVjaCUyQ1dyaXRpbmc=" data-listing-date-sort="1755270000000" data-listing-file-modified-sort="1755598328018" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="377">
-<div class="thumbnail"><a href="../page/posts/rojina-theme.html" class="no-external">
-
-<p class="card-img-top"><img src="../assets/image/title-page.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../page/posts/rojina-theme.html" class="no-external">Marp のテーマを作ってみた</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVjaA=='); return false;">Tech</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('V3JpdGluZw=='); return false;">Writing</div>
-
-</div>
-<div class="delink listing-description"><a href="../page/posts/rojina-theme.html" class="no-external">
-<p>研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../page/posts/rojina-theme.html" class="no-external">
-<div class="listing-date">
-2025/08/16
-</div>
-</a>
+<p>個人的な執筆環境でも紹介している通り、スライドはMarp派です。デザインにこだわりたいときは PowerPoint や Google Slides も使いますが、研究報告のスライドはそういう部分を完全に忘れて書くことだけに集中したいです。（というか、数式が打てない時点でパワポもGoogleスライドもメインツールにはなり得ません）</p>
+<p>その欲望を満たすため、新しくMarpのためのカスタムテーマ “Rojina” を作成しました。結構満足できたので、紹介させてください。ソースコードもあるので、興味ある方は使ってみてください（そして感想を教えてくれると嬉しいです）。テーマ名はもちろん、このテーマの作成の時間も過ごした、とある喫茶店の名前です。</p>
+<div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin-bottom: 20px; display: flex; align-items: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<img src="https://github.com/fluidicon.png" alt="GitHub Logo" style="width: 50px; height: 50px; margin-right: 15px;">
+<div>
+<h4 style="margin: 0;" class="anchored">
+<a href="https://github.com/stats1230/rojina-theme-marp" target="_blank" style="text-decoration: none; color: #0366d6;">stats1230/rojina-theme-marp </a>
+</h4>
+<p style="margin: 5px 0 0; color: #586069;">
+Rojina: Marp theme for academic slides.
+</p>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="VGVzdCUyQ0lS" data-listing-date-sort="1755097200000" data-listing-file-modified-sort="1755232660283" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../page/posts/test-post.html" class="no-external">
+<ul>
+<li>自分が政治学系の界隈にいるので、それを前提としたテーマかもしれません</li>
+<li>Beamer の思想をかなり受け継いでいます
+<ul>
+<li>アスペクト比は4:3です</li>
+<li>Beamer の機能の移植もあります</li>
+</ul></li>
+<li>私はデザイナーでもなければセンスもないので、おしゃれスライドではありません</li>
+</ul>
+<section id="rojina-テーマの使い方" class="level2">
+<h2 class="anchored" data-anchor-id="rojina-テーマの使い方">Rojina テーマの使い方</h2>
+<p>“Rojina” は、特に政治学系の学術報告スライドのために作成されたカスタムテーマです。デザインと機能の両方でモダンでプロフェッショナルなテーマを目指しています。</p>
+</section>
+<section id="marp" class="level2">
+<h2 class="anchored" data-anchor-id="marp">Marp</h2>
+<p>このテーマは、Marp 向けに作られています。Marp の使い方などは<a href="https://marp.app/">公式ドキュメント</a>などを参照してください。</p>
+</section>
+<section id="rojina-テーマの導入方法" class="level2">
+<h2 class="anchored" data-anchor-id="rojina-テーマの導入方法">Rojina テーマの導入方法</h2>
+<p>Marp for VS Code または Marp CLI のいずれかの環境が前提です。後者を使う人には説明は不要でしょうから、下記は VS Code で使う人向けの手順です。</p>
+<section id="css-ファイルを配置する" class="level4">
+<h4 class="anchored" data-anchor-id="css-ファイルを配置する">1. CSS ファイルを配置する</h4>
+<ul>
+<li><code>marp-theme/rojina.css</code> をダウンロードし、適当な場所に配置します。
+<ul>
+<li>おすすめは、作業ディレクトリに <code>marp-theme</code> というディレクトリを作成することです。</li>
+<li>Settings &gt; Marp: Themes にパスを記入します。</li>
+</ul></li>
+<li>または、Settings &gt; Marp: Themes に次のように入力します。
+<ul>
+<li><code>https://raw.githubusercontent.com/stats1230/rojina-theme-marp/refs/heads/main/rojina.css</code></li>
+</ul></li>
+</ul>
+<p>後者の方法はPCの環境に影響しないのでスッキリしますが、私がテーマを編集したりレポジトリを消したりすると、その影響を受けてしまいます。</p>
+</section>
+<section id="yaml-ヘッダの指定" class="level4">
+<h4 class="anchored" data-anchor-id="yaml-ヘッダの指定">2. Yaml ヘッダの指定</h4>
+<ul>
+<li>sample.md を参考に、Markdown ファイル (<code>.md</code>) を作成します。</li>
+<li>Markdown ファイルの先頭にある yaml ヘッダに、次のように記述します。</li>
+</ul>
+<pre><code>---
+marp: true
+theme: rojina
+paginate: true
+lang: ja
+footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'
+style: |
+  section {  
+    --prim-color: #03233aff;      /* プライマリカラー */
+    --sec-color: #2a4f69ff;       /* セカンダリカラー */
+    --color-background: #fdfdfd;  /* 背景の色 */
+    --color-foreground: #333;     /* 文字の色 */
+    --color-link: var(--sec-color); /* リンクの色 */
+    }
+---</code></pre>
+<ul>
+<li>それ以降は、通常の marp の方法に従ってファイルに記入していきます</li>
+<li>このテーマの独自の機能などについては、sample.md 及び後述の「Rojina の使い方」をご覧ください。</li>
+</ul>
+</section>
+<section id="pdf-への出力" class="level4">
+<h4 class="anchored" data-anchor-id="pdf-への出力">3. PDF への出力</h4>
+<ul>
+<li>コマンドパレット (VS Code の画面上部) から <code>Export Slide Deck</code> を選択します
+<ul>
+<li>PDF への出力は Chrome系のブラウザが必要になります。</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="rojina-の使い方" class="level2">
+<h2 class="anchored" data-anchor-id="rojina-の使い方">Rojina の使い方</h2>
+<p>ここからは、Rojina テーマに実装したいくつかの機能をまとめます。</p>
+<section id="カラーパレットを自由に変更可能" class="level3">
+<h3 class="anchored" data-anchor-id="カラーパレットを自由に変更可能">カラーパレットを自由に変更可能！</h3>
+<ul>
+<li>Rojina テーマは、<strong>css を書き換えることなく</strong>テーマカラーを変更できます！</li>
+<li>冒頭の yaml ヘッダのうち、style 以降にあるカラーコードを書き換えるだけで、自由に色を選択できます。</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">変数名</th>
+<th style="text-align: left;">概要</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">–prim-color</td>
+<td style="text-align: left;">メインのカラー。ページタイトルの背景色や、 ボックスの見出し色に使われています。</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">–sec-color</td>
+<td style="text-align: left;">サブのカラー。コードの背景とフッタに使われています。メインカラーと同系統の色がおすすめ。</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">–color-background</td>
+<td style="text-align: left;">全体の背景の色です。ページタイトルの文字色にも使われています。</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">–color-foreground</td>
+<td style="text-align: left;">文字の色です。</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">–color-link</td>
+<td style="text-align: left;">リンクを張った際の文字と下線の色です。デフォルトでは –sec-color がそのまま使われています。</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>色に困ったときは、“color palette two colors” とかで検索すると幸せになれます。</li>
+<li>メインとサブのカラーは同系統の色が、背景色とは補色系の色がよいです。</li>
+</ul>
+</section>
+<section id="タイトルページ" class="level3">
+<h3 class="anchored" data-anchor-id="タイトルページ">タイトルページ</h3>
+<ul>
+<li>タイトルページは、次のように書きます。</li>
+<li>タイトル/サブタイトルは <code>&lt;br&gt;</code> で改行ができます</li>
+</ul>
+<pre><code>&lt;!--
+_class: title-page
+_paginate: false
+_footer: ''
+--&gt;
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+### 日付 | 報告の場所
+# 報告タイトル
+## 報告サブタイトル
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../page/posts/test-post.html" class="no-external">テスト投稿</a>
-</h3>
-<div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('VGVzdA=='); return false;">Test</div>
+&lt;div class="author-block" markdown="1"&gt;
 
-<div class="listing-category" onclick="window.quartoListingCategory('SVI='); return false;">IR</div>
+### あなたの名前
+あなたの所属
+あなたの email、twitter、github、etc...
 
-</div>
-<div class="delink listing-description"><a href="../page/posts/test-post.html" class="no-external">
-テストです。
-</a></div>
-</div>
-<div class="metadata">
-<a href="../page/posts/test-post.html" class="no-external">
-<div class="listing-date">
-2025/08/14
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">一致なし</div>
-</div></main> <!-- /main -->
+&lt;/div&gt;</code></pre>
+<p><img src="../../assets/image/title-page.png" class="img-fluid"></p>
+</section>
+<section id="フッタを表示する" class="level3">
+<h3 class="anchored" data-anchor-id="フッタを表示する">フッタを表示する</h3>
+<ul>
+<li>各ページのディレクティブ (<code>&lt;!-- --&gt;</code> で囲まれている部分) に <code>_footnote: ''</code> と書かなければ、フッタが表示されます。</li>
+<li>フッタの内容は、yaml ヘッダの <code>footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'</code> で指定できます</li>
+</ul>
+<p><img src="../../assets/image/footer.png" class="img-fluid"> - ちなみにページ番号の部分は <code>_pageniate: false</code> と書けば消えます</p>
+</section>
+<section id="ヘッダを表示する" class="level3">
+<h3 class="anchored" data-anchor-id="ヘッダを表示する">ヘッダを表示する</h3>
+<ul>
+<li>各ページのディレクティブに <code>&lt;!--_header: 'hogehoge' --&gt;</code> と書くと、ヘッダが表示されます。</li>
+<li>セクションタイトルなど情報の少ないものを書くことを想定して、文字をかなり小さくしています。</li>
+<li>太字 (2つの<code>**</code>で囲む) は濃く、それ以外は不透明度が下がります。</li>
+<li>CSS のちからでは、自動的なナビゲーションは実装できません。無念。</li>
+</ul>
+<p><img src="../../assets/image/header.png" class="img-fluid"></p>
+</section>
+<section id="ページのタイトル" class="level3">
+<h3 class="anchored" data-anchor-id="ページのタイトル">ページのタイトル</h3>
+<ul>
+<li>見出し2 (<code>##</code>) がページのタイトルになります</li>
+<li>1ページに見出し2を2つ入れることも技術的には可能ですが……おすすめしません</li>
+</ul>
+<p><img src="../../assets/image/heading2.png" class="img-fluid"></p>
+</section>
+<section id="表を挿入する" class="level3">
+<h3 class="anchored" data-anchor-id="表を挿入する">表を挿入する</h3>
+<ul>
+<li>一般的な markdown 記法に従い表を挿入できます。</li>
+<li>見出し (header) 部分の上下と、表の一番下に線が引かれます。</li>
+<li>表全体を<code>&lt;div class="table-container"&gt;</code> と <code>&lt;/div&gt;</code> で囲むと7割くらいの大きさになります。</li>
+</ul>
+<p><img src="../../assets/image/table.png" class="img-fluid"></p>
+</section>
+<section id="コードブロックを挿入する" class="level3">
+<h3 class="anchored" data-anchor-id="コードブロックを挿入する">コードブロックを挿入する</h3>
+<ul>
+<li>インライン (文中) コードは、2つの “`” (バッククォート) で囲むことで、背景と文字がそれっぽくなります</li>
+<li>2つの “```” で囲まれた部分は、大きなコードブロックになります。</li>
+</ul>
+<p><img src="../../assets/image/code.png" class="img-fluid"></p>
+</section>
+<section id="見出し付きのブロックを挿入する" class="level3">
+<h3 class="anchored" data-anchor-id="見出し付きのブロックを挿入する">見出し付きのブロックを挿入する</h3>
+<ul>
+<li>以下のようなコードを書くことで、見出し付きのブロックを挿入できます。</li>
+</ul>
+<pre><code>
+&lt;div class="block"&gt;
+  &lt;div class="block-title"&gt;タイトル&lt;/div&gt;
+  &lt;div class="block-content"&gt;本文&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<p><img src="../../assets/image/block.png" class="img-fluid"></p>
+<ul>
+<li>ブロック内でもマークダウン記法が有効です。
+<ul>
+<li>もちろん、<span class="math inline">\(\TeX\)</span> 記法で数式を含めることもできます。</li>
+</ul></li>
+</ul>
+</section>
+<section id="参考文献のページを作る" class="level3">
+<h3 class="anchored" data-anchor-id="参考文献のページを作る">参考文献のページを作る</h3>
+<ul>
+<li>ディレクティブに <code>_class: ref</code> と書くことで、参考文献のページを作ることができます</li>
+<li>参考文献のページは、セリフ体で文字を小さめにしています。</li>
+<li>通常の論文のように、ぶら下げインデントを再現しています。</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
