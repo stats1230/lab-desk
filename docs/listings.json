@@ -2,6 +2,7 @@
   {
     "listing": "/page/blog.html",
     "items": [
+      "/page/posts/rojina-theme.html",
       "/page/posts/test-post.html"
     ]
   }
