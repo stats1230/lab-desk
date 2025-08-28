@@ -14,10 +14,11 @@ website:
   image: "assets/image/izu.JPG"
   google-analytics: "G-8WFETJ1CSL"
 
+lang: ja
+
+
 format:
   html:
     theme:
       light: [sandstone, style.scss]
     toc: true
-
-lang: ja

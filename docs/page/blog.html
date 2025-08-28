@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0df261d42766d6c1199e81e0b8f718a8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-7195dd065f6e1f1b6135ec77417a2dc1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -177,6 +177,29 @@ window.Quarto = {
     <h5 class="quarto-listing-category-title">分類</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">すべて <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SVI=">IR <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVjaA==">Tech <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVzdA==">Test <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V3JpdGluZw==">Writing <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+<div class="font-switcher-container">
+  <button id="font-toggle-btn" class="font-toggle-button">
+    デフォルトフォントに切り替え
+  </button>
+</div>
+
+<style>
+  .font-switcher-container {
+    text-align: right;
+    padding: 8px 15px;
+    background-color: #f8f9fa; /* 背景色を少しつけると分かりやすい */
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 1rem;
+  }
+  .font-toggle-button {
+    font-size: 0.8em;
+    padding: 4px 8px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+</style>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -290,6 +313,32 @@ window.Quarto = {
 </div>
 <div class="listing-no-matching d-none">一致なし</div>
 </div></main> <!-- /main -->
+document.addEventListener('DOMContentLoaded', () =&gt; {
+
+  const body = document.body;
+  const toggleBtn = document.getElementById('font-toggle-btn');
+  const storageKey = 'font-preference';
+
+  console.log("ボタン検索の結果:", toggleBtn);
+
+  const currentPreference = localStorage.getItem(storageKey);
+  if (currentPreference === 'default') {
+    body.classList.add('font-default');
+  }
+
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', () =&gt; {
+      console.log("ボタンがクリックされました！ bodyのクラス:", document.body.className);
+      body.classList.toggle('font-default');
+
+      if (body.classList.contains('font-default')) {
+        localStorage.setItem(storageKey, 'default');
+      } else {
+        localStorage.setItem(storageKey, 'custom');
+      }
+    });
+  }
+});
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

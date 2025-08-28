@@ -7,7 +7,7 @@ permalink: /research-proposal.html
 
 念の為に最初に述べておきますが、これから (はじめて) 学位論文を執筆するという学部生や修士の大学院生向けの内容です。科研費申請書の書き方でも、Ph.D 出願書類の書き方でもありません。
 
-<a href="/lab_desk/research-proposal/en" class="btn btn--info" lang="en">English</a>
+<a href="/page/research-proposal-en.html" class="btn btn--info" lang="en">English</a>
 
 ## 2025年8月 追記
 先日、大学院の仲間と共同で主催している勉強会で研究報告会がありました。その際に開催したワークショップにおいて、同じテーマで報告を行ったので、その時のスライド資料もおいておきます。
