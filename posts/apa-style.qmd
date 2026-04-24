@@ -1,6 +1,7 @@
 ---
 title: "APA スタイルでの引用方法"
 date: "2024-06-29"
+date-modified: "2026-04-24"
 categories: [writing]
 description: "APA スタイル参考文献情報を書く方法のチートシートです。"
 image: "../assets/image/cover/apa-style.png"
@@ -111,9 +112,6 @@ Stein, A. A. (1982). Coordination and collaboration: Regimes in an anarchic worl
 Weinstock, R., Leong, G. B., & Silva, J. A. (2003). Defining forensic psychiatry: Roles and responsibilities. In R. Rosner (Ed.), Principles and practice of forensic psychiatry (2nd ed., pp. 7–13). CRC Press.
 :::
 
-### 翻訳書 (Translated book)
-
-
 ### 翻訳書 (Translated Book)
 必ず参照したものを引用します。英語の本を日本語に翻訳したものなら日本語の翻訳書を、ドイツ語の本を英語に翻訳したものなら英語の翻訳書を引用し、読んでいない本を引用してはいけません。
 
@@ -209,7 +207,6 @@ Wedeman, B. (2024, June 27). *Why an Israel-Hezbollah war would be far more dang
 :::
 
 
-### 公的機関のウェブサイト (Governmental or Organizational website)
 ### 政府・組織のウェブサイト (Government or Organization Website)
 ::: {.card .apa-citation-card}
 Name of Agency or Group. (Year, Month Day). *Title of page or work*. Name of Parent Organization. URL
@@ -292,15 +289,15 @@ https://doi.org/10.15057/10298
 - 版情報
   - 本のタイトルのあとで『』の中に「第#版」という形式で表記します。
 - 出版社
-  - 出版社の名前を書きます。出版値は書きません。
+  - 出版社の名前を書きます。出版地は書きません。
 
 :::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
-高坂正尭 (2017)「国際政治－恐怖と希望－（改版）」中央公論社
+高坂正尭 (2017)『国際政治－恐怖と希望－（改版）』中央公論社
 
 佐渡島紗織・吉野亜矢子（2021）『これから研究を書くひとのためのガイドブック ―ライティングの
 挑戦 15 週間―（第 2 版）』ひつじ書房
 
-松林哲也 (2021)「政治学と因果推論－比較から見える政治と社会－」岩波書店
+松林哲也 (2021)『政治学と因果推論－比較から見える政治と社会－』岩波書店
 :::
 
 
@@ -315,7 +312,7 @@ https://doi.org/10.15057/10298
   - 編者であることを示すため、「編」「編著」を名前の後に表記します。
 - 本の情報と出版社
   - 本のタイトルを二重かぎ括弧でくくり、副題がある場合は「－」（ダッシュ）で囲みます
-  - 本のタイトルのあと（『』の中）の括弧内にを「第#版」という形式で表記します。
+  - 本のタイトルのあと（『』の中）の括弧内に「第#版」という形式で表記します。
   - 出版社の名前を書く。出版地は書きません。
   - 章が該当するページ範囲を「pp. #-#」の形式で表記します。
 
@@ -378,11 +375,10 @@ pp.213-236.
   - 紙の新聞の場合、巻号や紙面、ページ番号を表記します。
 - URL
   - 電子版の記事を引用する場合はURLを記載する。末尾には「.」を付けない。
-  - 著者がわからない場合、代わりに記事のタイトルから始める。参考文献リストには、タイトルの
-  - 頭文字をアルファベット順に従って並べる。
+  - 著者がわからない場合、代わりに記事のタイトルから始める。参考文献リストには、タイトルの頭文字をアルファベット順に従って並べる。
 
 :::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
-今泉奏 (2024年3月8日)「『人口の半分が人道危機』泥沼化するスーダン―国際社会の傍観と謀略―」『朝日新聞デジタル』https://www.asahi.com/articles/ASS38659RS2SUHBI00B.ht ml
+今泉奏 (2024年3月8日)「『人口の半分が人道危機』泥沼化するスーダン―国際社会の傍観と謀略―」『朝日新聞デジタル』https://www.asahi.com/articles/ASS38659RS2SUHBI00B.html
 
 「シンギュラリティー・サバイバル―先進企業は既に転換 生成 AI ありきの経営―」（2023 年 11 月27 日）『日経 BP』pp.16–21
 
@@ -391,7 +387,7 @@ pp.213-236.
 
 ### ウェブサイト上の情報 (News Website Article)
 ::: {.card .apa-citation-card}
-著者名 (日付)「記事タイトル」『ウェブサイト名
+著者名 (日付)「記事タイトル」『ウェブサイト名』URL
 :::
 
 - ウェブサイト上の記事を引用する場合。

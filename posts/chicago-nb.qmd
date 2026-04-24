@@ -1,0 +1,768 @@
+---
+title: "シカゴ・スタイルでの引用方法（注記式参考文献目録方式）"
+date: "2026-04-24"
+date-modified: "2026-04-24"
+categories: [writing]
+description: "シカゴ・スタイル（トゥラビアン・スタイル）の注記式参考文献目録方式（Notes-Bibliography Style）での引用方法のチートシートです。"
+---
+
+この記事では、主に人文科学全般や一部の社会科学で用いられる引用スタイルである「シカゴ・スタイル」（トゥラビアン・スタイル / Turabian Style）の「注記式参考文献目録方式（Notes-Bibliography Style）」での引用方法をまとめます。この記事では英語文献と日本語文献の両方の記法を掲載しています。
+
+ケイト・L・トゥラビアン（Kate L. Turabian）（2012）『シカゴ・スタイル—研究論文執筆マニュアル—』沼口隆・沼口好雄訳、慶応義塾大学出版会（原著は2007）を参考に友人が作成したものを、微修正して記事にしています。掲載の許可をいただき、ありがとうございます。
+
+注記式参考文献目録方式では、資料の引用を示す手法として、典拠に言及する文の最後に上付き数字を付します。対応する数字をつけた注で引用の出典を述べ、著者、表題、出版情報およびページ数を明示します。同じ資料を再度引用する場合には、後に続く注を短縮することが可能です。論文の最後の参考文献目録には、注で明示したあらゆる出典および、参照したが引用しなかった文献を含みます。
+
+もう一方の方式である「著者年方式（Author-Date Style）」については、[シカゴ・スタイルでの引用方法（著者年方式）](/drafts/chicago-ad.qmd) にまとめています。
+
+<br>
+
+## 共通事項
+
+### 引用部分の表し方
+
+| 種類 | 表記 |
+|------|------|
+| ページ範囲 | XX–XX（p.やpp.は付けない） |
+| 章 | chap. XX |
+| 部 | pt. XX |
+| 節 | sec. XX |
+
+### 注の引用
+ページ番号の後にn（注1つ）またはnn（連続する複数注）をつけます。
+
+### 図表の引用
+
+| 種類 | 表記 |
+|------|------|
+| 図 | (Author's Last Name Date of Publication, XX, fig. YY) |
+| 表 | (Author's Last Name Date of Publication, XX, table YY) |
+| 地図 | (Author's Last Name Date of Publication, XX, map. YY) |
+| 図版 | (Author's Last Name Date of Publication, XX, plate. YY) |
+
+### 記載資料の順序
+- 目録およびリストは通常、アルファベット順に並べます。
+- 同一人物によって書かれた、または編集、翻訳された2つ以上の著作が含まれる場合、2つ目以降の記載事項の個人名は3emダッシュ（———）に書き換えます。
+
+<br>
+<br>
+
+## 英語文献
+
+### 雑誌論文 (Journal Article)
+
+**注 (Note)**
+
+:::{.card .apa-citation-card}
+Note Number. Author's First and Last Names, "Title of Article: Subtitle of Article," *Title of Journal* Volume Number, no. Issue Number (Date of Publication): XX–XX.
+:::
+
+**参考文献 (Bibliography)**
+
+:::{.card .apa-citation-card}
+Author's Last Name, First Name. "Title of Article: Subtitle of Article." *Title of Journal* Volume Number, no. Issue Number (Date of Publication): XX–XX.
+:::
+
+- **著者名**
+  - [注] ファーストネームを先に書き、ラストネームを続けます。
+  - [参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。
+- **論文のタイトル**
+  - [注] 論文のタイトルをダブルクォーテーション（""）で囲みます。カンマ（,）を忘れずに。
+  - [参考文献] 論文のタイトルをダブルクォーテーション（""）で囲みます。ピリオド（.）を忘れずに。
+- **雑誌のタイトル**
+  - 雑誌名を斜体（*Italic*）にします。
+  - 主要な単語の頭文字を大文字にします。
+- **巻号**
+  - 巻数（Volume）の直後にカンマ（,）を打ち、号数（Issue）をno.に続けて表記します。
+- **発行年**
+  - 論文に記載されている著作年を丸括弧（）で囲んで表記します。コロン（:）を忘れずに。
+- **引用ページ**（注）
+  - 引用ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+- **掲載ページ**（参考文献）
+  - 掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+**注**
+
+4\. Pramod K. Nayar, "Marvelous Excesses: English Travel Writing and India, 1680–1727," *Journal of British Studies* 44, no.2 (April 2005): 213.
+
+**参考文献**
+
+Nayar, Pramod K. "Marvelous Excesses: English Travel Writing and India, 1680–1727." *Journal of British Studies* 44, no.2 (April 2005): 213–38.
+:::
+
+
+### オンライン上の雑誌論文 (Journal Article Online)
+
+**注 (Note)**
+
+:::{.card .apa-citation-card}
+Note Number. Author's First and Last Names, "Title of Article: Subtitle of Article," *Title of Journal* Volume Number (Date of Publication), under "Descriptive Locater," URL (accessed Date of Access).
+:::
+
+**参考文献 (Bibliography)**
+
+:::{.card .apa-citation-card}
+Author's Last Name, First Name. "Title of Article: Subtitle of Article." *Title of Journal* Volume Number (Date of Publication). URL (accessed Date of Access).
+:::
+
+- **著者名**
+  - [注] ファーストネームを先に書き、ラストネームを続けます。
+  - [参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。
+- **論文のタイトル**
+  - [注] 論文のタイトルをダブルクォーテーション（""）で囲みます。カンマ（,）を忘れずに。
+  - [参考文献] 論文のタイトルをダブルクォーテーション（""）で囲みます。ピリオド（.）を忘れずに。
+- **雑誌のタイトル**
+  - 雑誌名を斜体（*Italic*）にします。
+  - 主要な単語の頭文字を大文字にします。
+- **巻号**
+  - 巻数（Volume）の直後にカンマ（,）を打ち、号数（Issue）をno.に続けて表記します。
+- **発行年**
+  - 論文に記載されている著作年を丸括弧（）で囲んで表記します。
+- **項目名**（注のみ）
+  - 該当の記述がどこにあるか示すために、章や項のタイトルをダブルクォーテーション（""）で囲みます。カンマ（,）を忘れずに。
+- **URL**
+  - 記事へのURLを表記します。
+- **アクセス日**
+  - 当該Webページにアクセスした日を表記します。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+**注**
+
+4\. Daniel A. Mcfarland, "Resistance as a Social Drama: A Study of Change-oriented Encounters," *American Journal of Sociology* 109, no.6 (May 2004), under "Settings," http://www.journals.uchicago.edu/AJS/journal/issues/v109n6/050199/050199.html (accessed May 3, 2006).
+
+**参考文献**
+
+Mcfarland, Daniel A. "Resistance as a Social Drama: A Study of Change-oriented Encounters." *American Journal of Sociology* 109, no.6 (May 2004). http://www.journals.uchicago.edu/AJS/journal/issues/v109n6/050199/050199.html (accessed May 3, 2006).
+:::
+
+
+### 本 (Book)
+
+**注 (Note)**
+
+:::{.card .apa-citation-card}
+Note Number. Author's First and Last Names, *Title of Book: Subtitle of Book*, ed. (Publisher's Name, Date of Publication), XX–XX.
+:::
+
+**参考文献 (Bibliography)**
+
+:::{.card .apa-citation-card}
+Author's Last Name, First Name. *Title of Book: Subtitle of Book*. ed. Publisher's Name, Date of Publication.
+:::
+
+- **著者名**
+  - [注] ファーストネームを先に書き、ラストネームを続けます。複数人いる場合はカンマ（,）でつなぎ、最後の著者の前にandを書きます。4人以上の場合、筆頭著者の名前のみを記し、et al.を書くことにより省略をします。
+  - [参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。複数人いる場合はカンマ（,）でつなぎ、最後の著者の前にandを書きます。
+- **本のタイトル**
+  - [注] 本のタイトルを斜体（*Italic*）にします。カンマ（,）を忘れずに。主要な単語の頭文字を大文字にします。
+  - [参考文献] 本のタイトルを斜体（*Italic*）にします。ピリオド（.）を忘れずに。主要な単語の頭文字を大文字にします。
+- **巻号**
+  - 巻数（Volume）の直後にカンマ（,）を打ち、号数（Issue）をno.に続けて表記します。
+- **出版社**
+  - 出版社の名前を書きます。出版地は不要です。複数の出版社から出版されている場合、セミコロン（;）を用いてつなぎます。
+- **発行年**
+  - 本に記載されている著作年を表記します。
+- **掲載ページ**
+  - 掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+**注**
+
+1\. Jared Diamond, *Guns, Germs, and Steel: The Fates of Human Societies* (W.W.Norton and Company, 1997), 47–48.
+
+2\. Kai Bird and Martin J. Sherwin, *American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer* (Alfred A. Knopf, 2005), 52.
+
+3\. Roger Daniels, *Coming to America: A History of Immigration and Ethnicity in American Life,* 2nd ed. (Harper Perennial, 2002), 84.
+
+**参考文献**
+
+Diamond, Jared. *Guns, Germs, and Steel: The Fates of Human Societies*. W.W.Norton and Company, 1997.
+
+Bird, Kai, and Martin J. Sherwin. *American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer*. Alfred A. Knopf, 2005.
+
+Daniels, Roger. *Coming to America: A History of Immigration and Ethnicity in American Life.* 2nd ed. Harper Perennial, 2002.
+:::
+
+
+### 編集本 (Edited Book)
+
+**注 (Note)**
+
+:::{.card .apa-citation-card}
+Note Number. Editor's First and Last Names, ed., *Title of Book: Subtitle of Book* (Publisher's Name, Date of Publication), XX–XX.
+:::
+
+**参考文献 (Bibliography)**
+
+:::{.card .apa-citation-card}
+Editor's Last Name, First Name, ed. *Title of Book: Subtitle of Book*. Publisher's Name, Date of Publication.
+:::
+
+- **編者名**
+  - [注] ファーストネームを先に書き、ラストネームを続けます。編者であることを示すため、名前の後にed.を付けます。
+  - [参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。編者であることを示すため、名前の後にed.を付けます。
+- **本のタイトル**
+  - [注] 本のタイトルを斜体（*Italic*）にします。カンマ（,）を忘れずに。主要な単語の頭文字を大文字にします。
+  - [参考文献] 本のタイトルを斜体（*Italic*）にします。ピリオド（.）を忘れずに。主要な単語の頭文字を大文字にします。
+- **出版社**
+  - 出版社の名前を書きます。出版地は不要です。複数の出版社から出版されている場合、セミコロン（;）を用いてつなぎます。
+- **発行年**
+  - 本に記載されている著作年を表記します。
+- **掲載ページ**
+  - 掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+**注**
+
+7\. Mark A. Noll, ed., *Religion and American Politics: From the Colonial Period to the 1980s* (Oxford University Press, 1989), 50–51.
+
+**参考文献**
+
+Noll, Mark A., ed. *Religion and American Politics: From the Colonial Period to the 1980s*. Oxford University Press, 1989.
+:::
+
+
+### 著者および編者または翻訳者 (Author(s) Plus Editor or Translator)
+
+**注 (Note)**
+
+:::{.card .apa-citation-card}
+Note Number. Author's First and Last Names, *Title of Book: Subtitle of Book*, ed. Editor's First and Last Names (Publisher's Name, Date of Publication), XX–XX.
+:::
+
+**参考文献 (Bibliography)**
+
+:::{.card .apa-citation-card}
+Author's Last Name, First Name. *Title of Book: Subtitle of Book*. Edited by Editor's First and Last Names. Publisher's Name, Date of Publication.
+:::
+
+- **筆者名**
+  - [注] ファーストネームを先に書き、ラストネームを続けます。
+  - [参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。
+- **本のタイトル**
+  - [注] 本のタイトルを斜体（*Italic*）にします。カンマ（,）を忘れずに。主要な単語の頭文字を大文字にします。
+  - [参考文献] 本のタイトルを斜体（*Italic*）にします。ピリオド（.）を忘れずに。主要な単語の頭文字を大文字にします。
+- **編者名**
+  - [注]「ed.」（複数人である場合には「eds.」）に続けて、編者のファーストネームを先に書き、ラストネームを続けます。
+  - [参考文献]「Edited by」に続けて、編者のファーストネームを先に書き、ラストネームを続けます。
+- **出版社**
+  - 出版社の名前を書きます。出版地は不要です。複数の出版社から出版されている場合、セミコロン（;）を用いてつなぎます。
+- **発行年**
+  - 本に記載されている著作年を表記します。
+- **掲載ページ**
+  - 掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+**注**
+
+9\. J. B. Harley, *The New Nature of Maps: Essays in the History of Cartography,* ed. Paul Laxton (Johns Hopkins University Press, 2002), 132–33.
+
+**参考文献**
+
+Harley, J. B. *The New Nature of Maps: Essays in the History of Cartography.* Edited by Paul Laxton. Johns Hopkins University Press, 2002.
+:::
+
+
+### 編集本の特定の章 (Single Chapter in an Edited Book)
+
+**注 (Note)**
+
+:::{.card .apa-citation-card}
+Note Number. Chapter Author's First and Last Names, "Title of Chapter: Subtitle of Chapter," in *Title of Book: Subtitle of Book*, ed. Editor's First and Last Names (Publisher's Name, Date of Publication), XX–XX.
+:::
+
+**参考文献 (Bibliography)**
+
+:::{.card .apa-citation-card}
+Chapter Author's Last Name, First Name. "Title of Chapter: Subtitle of Chapter." In *Title of Book: Subtitle of Book*, edited by Editor's First and Last Names, XX–XX. Publisher's Name, Date of Publication.
+:::
+
+- **論文の筆者名**
+  - [注] ファーストネームを先に書き、ラストネームを続けます。
+  - [参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。
+- **論文のタイトル**
+  - [注] 論文のタイトルをダブルクォーテーション（""）で囲みます。カンマ（,）を忘れずに。
+  - [参考文献] 論文のタイトルをダブルクォーテーション（""）で囲みます。ピリオド（.）を忘れずに。
+- **本のタイトル**
+  - [注] 本のタイトルの前に「in」と記載し、本の一部であることを示します。本のタイトルを斜体（*Italic*）にします。カンマ（,）を忘れずに。主要な単語の頭文字を大文字にします。
+  - [参考文献] 本のタイトルの前に「In」と記載し、本の一部であることを示します。本のタイトルを斜体（*Italic*）にします。ピリオド（.）を忘れずに。主要な単語の頭文字を大文字にします。
+- **編者名**
+  - [注]「ed.」（複数人である場合には「eds.」）に続けて、編者のファーストネームを先に書き、ラストネームを続けます。
+  - [参考文献]「edited by」に続けて、編者のファーストネームを先に書き、ラストネームを続けます。
+- **掲載ページ**（参考文献）
+  - 掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+- **出版社**
+  - 出版社の名前を書きます。出版地は不要です。複数の出版社から出版されている場合、セミコロン（;）を用いてつなぎます。
+- **発行年**
+  - 本に記載されている著作年を表記します。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+**注**
+
+15\. Anne Whiston Spirn, "Constructing Nature: The Legacy of Frederick Law Olmsted," in *Uncommon Ground: Rethinking the Human Place in Nature,* ed. William Cronon (W.W.Norton and Company, 1996), 101.
+
+**参考文献**
+
+Spirn, Anne Whiston. "Constructing Nature: The Legacy of Frederick Law Olmsted." In *Uncommon Ground: Rethinking the Human Place in Nature,* edited by William Cronon, 91–113. W.W.Norton and Company, 1996.
+:::
+
+
+### 新聞記事（原則、参考文献目録に入れる必要なし）
+
+#### 書き方1
+
+:::{.card .apa-citation-card}
+Heading, *Publisher's Name*, Date of Publication, Edition Number.
+:::
+
+- **記事の見出し**
+  - 記事の見出しを記載します。
+- **新聞社**
+  - 新聞社の名前を斜体（*Italic*）にします。
+- **発刊日**
+  - 年月日すべてを記載します。
+- **版番号**
+  - 版によって記載項目が変化または削除される可能性があるため、記載します。必ずしも数字ではなく、「最終版（final edition）」や「南西部版（Midwest edition）」といった場合もあります。
+
+:::{.callout-note collapse="true" title="参考文献表記例（書き方1）" .citation-card}
+4\. Obituary of Jacques Derrida, *New York Times,* October 10, 2004, national edition.
+:::
+
+#### 書き方2
+
+:::{.card .apa-citation-card}
+Writer's First Name and Last Names, "Heading," *Publisher's Name*, Date of Publication.
+:::
+
+- **著者名**
+  - ファーストネームを先に書き、ラストネームを続けます。
+- **記事の見出し**
+  - 記事の見出しをダブルクォーテーション（""）で囲みます。カンマ（,）を忘れずに。
+- **新聞社**
+  - 新聞社の名前を斜体（*Italic*）にします。
+- **発刊日**
+  - 年月日すべてを記載します。
+
+:::{.callout-note collapse="true" title="参考文献表記例（書き方2）" .citation-card}
+5\. Blair Kamin, "Wrigley Building Clearly a Landmark," *Chicago Tribune,* July 1, 2005.
+:::
+
+
+### 手稿
+
+**注 (Note)**
+
+:::{.card .apa-citation-card}
+Note Number. Author's First and Last Names, Date of Publication, Title of Manuscript or Types of Manuscript, Name of Collection, Location of Manuscript.
+:::
+
+**参考文献（議論に不可欠または頻繁に引用した場合のみ）**
+
+:::{.card .apa-citation-card}
+Author's Last Name, First Name. Title of Manuscript or Types of Manuscript, Name of Collection, Location of Manuscript.
+:::
+
+- **資料の著者（送信者 to 発信者）**
+  - ファーストネームを先に書き、ラストネームを続けます。
+- **資料の日付**
+  - 資料の作成された年月日を記載します。
+- **資料のタイトルまたは種類**
+  - 資料のタイトルを記載します。資料に表題があるが著者名がない、または表題が著者名よりも重要な場合は、表題を最初に記載します。
+- **コレクション名**
+  - 使用する資料が収められている資料集等の情報を記載します。未公刊の資料については、コレクションの情報を「筆者の所有」または「私蔵」と記載します。
+- **所蔵場所**
+  - 当該コレクションが所蔵されている場所を記載します。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+**注**
+
+5\. Burton to Merriam, telegram, January 26, 1923, Charles E. Merriam Papers, University of Chicago Library.
+
+44\. Memorandum by Alvin Johnson, 1937, file 36, Horace Kalleb Papers, YIVO Institute, New York.
+
+**参考文献**
+
+Dinkel, Joseph. Description of Louis Agassiz written at the request of Elizabeth Cary Agassiz. Agassiz Papers. Houghton Library, Harvard University, Cambridge, MA.
+:::
+
+
+<br>
+<br>
+
+## 日本語文献
+
+### 雑誌論文
+
+**注**
+
+:::{.card .apa-citation-card}
+注番号. 著者名「論文のタイトル」『雑誌のタイトル』巻号（発行年）XX–XX
+:::
+
+**参考文献**
+
+:::{.card .apa-citation-card}
+著者名「論文のタイトル—副題—」『雑誌のタイトル』巻号（発行年）XX–XX. DOI
+:::
+
+- **著者名**
+  - [注] 著者の姓を表記します。著者が複数名いる場合は、著者間を「・」（なかぐろ）でつなぎます。
+  - [参考文献] 著者を姓・名の順で表記します。著者が複数名いる場合は、著者間を「・」（なかぐろ）でつなぎます。
+- **論文のタイトル**
+  - 論文のタイトルを「 」（一重かぎ括弧）で囲みます。副題（サブタイトル）がある場合は「－」（ダッシュ）でタイトルとつなぎます。
+- **雑誌のタイトル**
+  - 掲載雑誌のタイトルを『 』（二重かぎ括弧）で囲みます。
+- **巻号**
+  - 掲載雑誌の巻数を表記します。
+- **引用ページ**（注）
+  - 引用ページの範囲をenダッシュ（–）でつなぎます。
+- **掲載ページ**（参考文献）
+  - 掲載ページの範囲をenダッシュ（–）でつなぎます。
+- **DOI**
+  - 論文にDOI（Digital Object Identifier）が付与されている場合は、リンク形式で記載します。URLの表示が変わる可能性があるため、末尾に句点（.）は付けません。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+**注**
+
+1\. 秋山「グローバル・ヘルスレジームにおける調査・検証権限の制度的考察」『国際政治』211号（2023）60.
+
+2\. 市原「変容する『人権・民主主義外交』」『外交』67号（2021）42–47.
+
+3\. 大林「反乱軍の組織と内戦後の和平期間」『国際政治』174号（2013）139–152. https://doi.org/10.11375/kokusaiseiji.174_139
+
+4\. 山田「国際関係を学ぶ人へ」『一橋論叢』127巻4号（2002）414–429. https://doi.org/10.15057/10298
+
+**参考文献**
+
+秋山信将「グローバル・ヘルスレジームにおける調査・検証権限の制度的考察－不拡散レジームとの比較において（ヘルスをめぐる国際政治）－」『国際政治』211号（2023）58–73.
+
+市原麻衣子「変容する『人権・民主主義外交』－民主主義国の国際連携と日本のあり方－」『外交』67号（2021）42–47.
+
+大林一広「反乱軍の組織と内戦後の和平期間」『国際政治』174号（2013）139–152. https://doi.org/10.11375/kokusaiseiji.174_139
+
+山田敦「国際関係を学ぶ人へ」『一橋論叢』127巻4号（2002）414–429. https://doi.org/10.15057/10298
+:::
+
+
+### 本
+
+**注**
+
+:::{.card .apa-citation-card}
+注番号. 著者名『本のタイトル』版（出版社、発行年）XX–XX.
+:::
+
+**参考文献**
+
+:::{.card .apa-citation-card}
+著者名『本のタイトル—副題—』版（出版社、発行年）
+:::
+
+- **著者名**
+  - [注] 著者の姓を表記します。著者が複数名いる場合は「・」（なかぐろ）でつなぎます。4人以上の場合、筆頭著者の名前のみを記し、「他」を書くことにより省略をします。
+  - [参考文献] 著者を姓・名の順で表記します。著者が複数名いる場合は「・」（なかぐろ）でつなぎます。
+- **本のタイトル**
+  - 本のタイトルを『 』（二重かぎ括弧）で囲みます。
+- **版情報**
+  - 本のタイトルのあとに「第X版」という形式で表記します。
+- **出版社**
+  - 出版社の名前を書きます。出版地は不要です。
+- **発行年**
+  - 本に記載されている著作年を表記します（基本的には参照した版の第一刷の年）。
+- **引用ページ**
+  - 引用ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+**注**
+
+高坂『国際政治』（中央公論社、2017）30–31.
+
+佐渡島・吉野『これから研究を書くひとのためのガイドブック』第2版（ひつじ書房、2021）10–11.
+
+松林『政治学と因果推論』（岩波書店、2021）20–21.
+
+**参考文献**
+
+高坂正尭『国際政治－恐怖と希望－』改版（中央公論社、2017）
+
+佐渡島紗織・吉野亜矢子『これから研究を書くひとのためのガイドブック―ライティングの挑戦15週間―』第2版（ひつじ書房、2021）
+
+松林哲也『政治学と因果推論－比較から見える政治と社会－』（岩波書店、2021）
+:::
+
+
+### 編集本
+
+**注**
+
+:::{.card .apa-citation-card}
+注番号. 編者名編『本のタイトル』（出版社、発行年）XX–XX.
+:::
+
+**参考文献**
+
+:::{.card .apa-citation-card}
+編者名編『本のタイトル—副題—』出版社、発行年
+:::
+
+- **編者名**
+  - [注] 編者の姓を表記します。編者であることを示すため、名前の後に「編」を付けます。編者が複数名いる場合は「・」（なかぐろ）でつなぎます。4人以上の場合、筆頭編者の名前のみを記し、「他」を書くことにより省略をします。
+  - [参考文献] 編者を姓・名の順で表記します。編者であることを示すため、名前の後に「編」を付けます。編者が複数名いる場合は「・」（なかぐろ）でつなぎます。
+- **本のタイトル**
+  - 本のタイトルを『 』（二重かぎ括弧）で囲みます。
+- **版情報**
+  - 本のタイトルのあとに「第X版」という形式で表記します。
+- **出版社**
+  - 出版社の名前を書きます。出版地は不要です。
+- **発行年**
+  - 本に記載されている著作年を表記します（基本的には参照した版の第一刷の年）。
+- **引用ページ**
+  - 掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+
+
+### 著者および編者または翻訳者
+
+**注**
+
+:::{.card .apa-citation-card}
+注番号. 著者名『編集本または翻訳書のタイトル』版、翻訳者名（出版社、翻訳年）XX–XX.
+:::
+
+**参考文献**
+
+:::{.card .apa-citation-card}
+著者名『編集本または翻訳書のタイトル—副題—』版、翻訳者名（出版社、翻訳年）（原著はXXXX）
+:::
+
+- **筆者名**
+  - [注] 著者の姓を表記します。著者が複数名いる場合は「・」（なかぐろ）でつなぎます。
+  - [参考文献] 著者を姓名の順で表記します。カッコ内に英語表記もします。著者が複数名いる場合は「・」（なかぐろ）でつなぎます。
+- **本のタイトル**
+  - 参照した翻訳書のタイトルを二重かぎ括弧でくくります。
+- **版情報**
+  - 翻訳書の版情報があれば、タイトルの後に示します。
+- **編者または翻訳者名**
+  - [注] 翻訳者の姓を表記し、「訳」を続けます。
+  - [参考文献] 翻訳者の姓名を表記し、「訳」を続けます。
+- **出版社**
+  - 出版社の名前を（）内に書きます。出版地は不要です。
+- **翻訳年**
+  - 本に記載されている翻訳年を表記します。
+- **引用ページ**
+  - 引用ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+- **原著の著作年**
+  - 原著の著作年を「原著はXXXX」の形式で表記します。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+**注**
+
+4\. チェノウェス『市民的抵抗』小林綾子訳（白水社、2022）50–51.
+
+5\. ナイ『国際紛争―』田中・村田訳（有斐閣、2002）101–02.
+
+**参考文献**
+
+チェノウェス、エリカ（Chenoweth, E.）『市民的抵抗―非暴力が社会を変える―』小林綾子訳（白水社、2022）（原著は2021）
+
+ナイ、ジョセフ・S.（Nye, J. S.）『国際紛争―理論と歴史―』田中明彦・村田晃嗣訳（有斐閣、2002）（原著は1993）
+:::
+
+
+### 編集本の特定の章
+
+**注**
+
+:::{.card .apa-citation-card}
+注番号. 著者名「章のタイトル」『本のタイトル』版、編者名（出版社、発行年）XX–XX.
+:::
+
+**参考文献**
+
+:::{.card .apa-citation-card}
+著者名「章のタイトル—副題—」『本のタイトル—副題—』版、編者名（出版社、発行年）XX–XX.
+:::
+
+- **論文情報**
+  - 通常の論文と同様の要領で、章の情報を表記します。
+- **本のタイトル**
+  - 本のタイトルを二重かぎ括弧でくくり、副題がある場合は「－」（ダッシュ）で囲みます。
+- **版情報**
+  - 本のタイトルのあとに「第X版」という形式で表記します。
+- **編者名**
+  - 編者の名前を表記します。編者であることを示すため、「編」「編著」を名前の後に表記します。
+- **出版社**
+  - 出版社の名前を書きます。出版地は不要です。
+- **発行年**
+  - 本に記載されている著作年を表記します。
+- **引用ページ**（注）
+  - 引用ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+- **掲載ページ**（参考文献）
+  - 掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+**注**
+
+6\. 中山・土井「国際難民制度のテキスト分析」『国際関係研究の方法』鈴木・飯田編（東京大学出版会、2021）220.
+
+7\. 宮城「1960年代における日本の援助とアジア国際秩序」『冷戦変容期の国際開発援助とアジア』渡辺編著（ミネルヴァ書房、2017）350–52.
+
+**参考文献**
+
+中山祐美・土井翔平「国際難民制度のテキスト分析－UNHCRにおける北欧諸国の発言を事例に－」鈴木基史・飯田啓輔編『国際関係研究の方法－解説と実践－』（東京大学出版会、2021）213–236.
+
+宮城大蔵「1960年代における日本の援助とアジア国際秩序―戦後処理と冷戦の影―」『冷戦変容期の国際開発援助とアジア』渡辺昭一編著（ミネルヴァ書房、2017）340–367.
+:::
+
+
+### 新聞記事（原則、参考文献目録に入れる必要なし）
+
+:::{.card .apa-citation-card}
+著者名「記事のタイトル」『新聞名』日付
+:::
+
+- **著者名**
+  - 著者を姓名の順で表記します。著者が複数名いる場合は「・」（なかぐろ）でつなぎます。
+- **記事のタイトル**
+  - 記事のタイトルを「 」（一重かぎ括弧）でくくります。タイトル内のかぎ括弧は二重にします。副題がある場合は「－」（ダッシュ）で囲みます。
+- **新聞社**
+  - 新聞社の名前を『 』（二重かぎ括弧）で囲みます。
+- **発刊日**
+  - 新聞記事や雑誌の記事が発行された日を「年月日」の形式で表記します。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+今泉奏「『人口の半分が人道危機』泥沼化するスーダン―国際社会の傍観と謀略―」『朝日新聞デジタル』2024年3月8日、https://www.asahi.com/articles/ASS38659RS2SUHBI00B.html
+:::
+
+
+### 手稿
+
+**注**
+
+:::{.card .apa-citation-card}
+注番号. 著者名（日付）「資料のタイトル」
+:::
+
+**参考文献（議論に不可欠または頻繁に引用した場合のみ）**
+
+:::{.card .apa-citation-card}
+著者名「資料のタイトル」日付、資料の種類、コレクションの名前、所蔵場所
+:::
+
+- **資料の著者（送信者 to 発信者）**
+  - 著者の名前を姓名の順で表記します。
+- **資料の日付**
+  - 資料の作成された年月日を記載します。
+- **資料のタイトルまたは種類**
+  - 資料のタイトルを「 」（かぎ括弧）でくくり、記載します。資料に表題があるが著者名がない、または表題が著者名よりも重要な場合は、表題を最初に記載します。
+- **コレクション名**
+  - 使用する資料が収められている資料集等の情報を記載します。未公刊の資料については、コレクションの情報を「筆者の所有」または「私蔵」と記載します。
+- **所蔵場所**
+  - 当該コレクションが所蔵されている場所を記載します。
+
+<br>
+<br>
+
+## 短縮注
+
+同じ資料を再度引用する場合、注を短縮した形式で記載できます。
+
+### 著者のみ
+
+#### 本
+
+:::{.card .apa-citation-card}
+Note Number. Author's Last Name, XX–XX.
+:::
+
+- **本の著者名**
+  - ラストネームのみ書きます。同一のラストネームを持つ著者が複数いる場合、ファーストネームを先に書き、ラストネームを続けます。
+- **ページ番号**
+  - 掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+2\. Diamond, 85–90.
+
+12\. Philip Smith, 212–13.
+
+7\. Bird and Sherwin, 88–89.
+:::
+
+#### 手稿
+
+:::{.card .apa-citation-card}
+Note Number. Author's First and Last Names, Date of Publication, Location of Manuscript.
+:::
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+2\. Minutes, April 15, 1795, Pennsylvania Society.
+:::
+
+
+### 筆者―タイトル
+
+#### 本
+
+:::{.card .apa-citation-card}
+Note Number. Author's Last Name, *Shortened Title*, XX–XX.
+:::
+
+- **本の著者名**
+  - ラストネームのみ書きます。同一のラストネームを持つ著者が複数いる場合、ファーストネームを先に書き、ラストネームを続けます。
+- **本のタイトル**
+  - 主題のみを表記します。本のタイトルを斜体（*Italic*）にします。カンマ（,）を忘れずに。
+- **ページ番号**
+  - 掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+2\. Diamond, *Guns, Germs, and Steel,* 85–90.
+:::
+
+#### 論文
+
+:::{.card .apa-citation-card}
+Note Number. Author's Last Name, "Shortened Title," XX–XX.
+:::
+
+- **論文の著者名**
+  - ラストネームのみ書きます。同一のラストネームを持つ著者が複数いる場合、ファーストネームを先に書き、ラストネームを続けます。
+- **論文のタイトル**
+  - 論文のタイトルをダブルクォーテーション（""）で囲みます。カンマ（,）を忘れずに。主題のみを表記します。
+- **ページ番号**
+  - 掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+8\. Nayar, "Marvelous Excesses," 225.
+:::
+
+
+### タイトルのみ
+
+#### 本
+
+:::{.card .apa-citation-card}
+Note Number. *Shortened Title,* XX–XX.
+:::
+
+- **本のタイトル**
+  - 主題のみを表記します。本のタイトルを斜体（*Italic*）にします。カンマ（,）を忘れずに。
+- **ページ番号**
+  - 掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+2\. *Guns, Germs, and Steel,* 85–90.
+:::
+
+#### 論文
+
+:::{.card .apa-citation-card}
+Note Number. "Shortened Title," XX–XX.
+:::
+
+- **論文のタイトル**
+  - 主題のみを表記します。論文のタイトルをダブルクォーテーション（""）で囲みます。カンマ（,）を忘れずに。
+- **ページ番号**
+  - 掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。
+
+:::{.callout-note collapse="true" title="参考文献表記例" .citation-card}
+8\. "Marvelous Excesses," 225.
+:::
