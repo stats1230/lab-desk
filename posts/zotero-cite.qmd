@@ -1,6 +1,7 @@
 ---
 title: "Zotero を使おう：文献を引用する"
 date: "2026-04-02"
+date-modified: "2026-04-30"
 categories: [tech, writing]
 image: "../assets/image/cover/zotero_2.png"
 description: "文献管理ソフト「Zotero」をつかって、実際に引用を行う方法を説明します。"
@@ -15,7 +16,7 @@ description: "文献管理ソフト「Zotero」をつかって、実際に引用
 ::: {.article-card}
 [![Zotero を使おう：文献を集める](../assets/image/cover/zotero_1.png)](./zotero-collect.qmd)
 
-[**Zotero を使おう：文献を集める**](/posts/zotero-cite.qmd)
+[**Zotero を使おう：文献を集める**](/posts/zotero-install.qmd)
 
 文献管理ソフト「Zotero」の、一番さいしょの使い方を説明します。
 :::
