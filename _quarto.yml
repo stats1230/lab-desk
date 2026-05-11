@@ -26,6 +26,10 @@ website:
 
 lang: ja
 
+author:
+  name: "達野俊輔 / S. Tatsuno"
+  url: "https://s-tatsuno.github.io"
+
 
 format:
   html:
